@@ -1,0 +1,34 @@
+{
+    "model_type": "GradientBoostingRegressor",
+    "problem_type": "REGRESSION",
+    "training_date": "2026-05-26T17:02:32.338879",
+    "best_hyperparameters": {
+        "learning_rate": 0.05,
+        "max_depth": 3,
+        "min_samples_split": 10,
+        "n_estimators": 150
+    },
+    "metrics": {
+        "rmse": 7.598817677771303,
+        "mae": 5.185799346904431,
+        "r2_score": 0.9304914913674623
+    },
+    "feature_count": 15,
+    "feature_names": [
+        "Trip_Distance_km",
+        "Passenger_Count",
+        "Traffic_Conditions",
+        "Base_Fare",
+        "Per_Km_Rate",
+        "Per_Minute_Rate",
+        "Trip_Duration_Minutes",
+        "Time_of_Day_Morning",
+        "Day_of_Week_Weekend",
+        "Weather_Rain",
+        "Weather_Snow",
+        "Distance_Per_Minute",
+        "Is_Long_Trip",
+        "Cost_Interaction",
+        "Passenger_Density"
+    ]
+}

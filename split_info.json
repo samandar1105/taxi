@@ -1,0 +1,11 @@
+{
+    "random_state": 42,
+    "test_size": 0.2,
+    "train_samples": 800,
+    "test_samples": 200,
+    "total_features": 15,
+    "problem_type": "Regression",
+    "shuffle": true,
+    "data_leakage": false,
+    "kfold_splits": 5
+}

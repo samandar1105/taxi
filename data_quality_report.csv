@@ -1,0 +1,12 @@
+Feature,Data_Type,Missing_Values,Missing Percentage,unique values
+Trip_Distance_km,float64,50,5.0,867
+Time_of_Day,str,50,5.0,4
+Day_of_Week,str,50,5.0,2
+Passenger_Count,float64,50,5.0,4
+Traffic_Conditions,str,50,5.0,3
+Weather,str,50,5.0,3
+Base_Fare,float64,50,5.0,290
+Per_Km_Rate,float64,50,5.0,150
+Per_Minute_Rate,float64,50,5.0,41
+Trip_Duration_Minutes,float64,50,5.0,917
+Trip_Price,float64,49,4.9,951

@@ -1,0 +1,43 @@
+
+
+#================================================
+DATA CLEANING DECISIONS LOG
+================================================
+
+1. MISSING VALUES
+------------------------------------------------
+
+- Trip_Distance_km:median imputation( 5.000000% missing)
+- Passenger_Count:median imputation( 5.000000% missing)
+- Base_Fare:median imputation( 5.000000% missing)
+- Per_Km_Rate:median imputation( 5.000000% missing)
+- Per_Minute_Rate:median imputation( 5.000000% missing)
+- Trip_Duration_Minutes:median imputation( 5.000000% missing)
+- Trip_Price:median imputation( 4.900000% missing)
+- Time_of_Day:Mode Imputation (5.00% missing)
+- Day_of_Week:Mode Imputation (5.00% missing)
+- Traffic_Conditions:Mode Imputation (5.00% missing)
+- Weather:Mode Imputation (5.00% missing)
+2. DUPLICATES
+------------------------------------------------
+- Duplicate Rows Removed: 0
+
+3. DATA TYPES
+------------------------------------------------
+- All object columns converted to category datatype
+
+4. OUTLIERS
+------------------------------------------------
+- Outliers detected using IQR method
+- Most outliers kept because they appear realistic
+- Long taxi trips are valid real-world cases
+
+5. FINAL DATASET
+------------------------------------------------
+- Original Shape: (1000, 11)
+- Final Shape: (1000, 11)
+- Missing Values Remaining: 0
+- Duplicate Rows Remaining: 0
+
+NEXT STEP:
+Feature Engineering
